@@ -3,13 +3,7 @@ var debug = require('debug')('precinct');
 var Walker = require('node-source-walk');
 
 var detectiveCjs = require('detective-cjs');
-var detectiveAmd = require('detective-amd');
 var detectiveEs6 = require('detective-es6');
-var detectiveLess = require('detective-less');
-var detectivePostcss = require('detective-postcss');
-var detectiveSass = require('detective-sass');
-var detectiveScss = require('detective-scss');
-var detectiveStylus = require('detective-stylus');
 var detectiveTypeScript = require('detective-typescript');
 
 var fs = require('fs');
@@ -73,26 +67,8 @@ function precinct(content, options = {}) {
     case 'commonjs':
       theDetective = mixedMode ? detectiveEs6Cjs : detectiveCjs;
       break;
-    case 'css':
-      theDetective = detectivePostcss;
-      break;
-    case 'amd':
-      theDetective = detectiveAmd;
-      break;
     case 'es6':
       theDetective = mixedMode ? detectiveEs6Cjs : detectiveEs6;
-      break;
-    case 'sass':
-      theDetective = detectiveSass;
-      break;
-    case 'less':
-      theDetective = detectiveLess;
-      break;
-    case 'scss':
-      theDetective = detectiveScss;
-      break;
-    case 'stylus':
-      theDetective = detectiveStylus;
       break;
     case 'ts':
       theDetective = detectiveTypeScript;
