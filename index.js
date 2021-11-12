@@ -2,9 +2,9 @@ var getModuleType = require('module-definition');
 var debug = require('debug')('precinct');
 var Walker = require('node-source-walk');
 
-var detectiveCjs = require('detective-cjs');
-var detectiveEs6 = require('detective-es6');
-var detectiveTypeScript = require('detective-typescript');
+var detectiveCjs = require('detective-cjs-extended');
+var detectiveEs6 = require('detective-es6-extended');
+var detectiveTypeScript = require('detective-typescript-extended');
 
 var fs = require('fs');
 var path = require('path');
