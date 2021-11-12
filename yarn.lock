@@ -547,9 +547,24 @@ detective-amd@^3.0.1:
     ast-module-types "^2.4.0"
     node-source-walk "^4.0.0"
 
+detective-cjs@^3.1.1:
+  version "3.1.1"
+  resolved "https://packages.convoy.com/artifactory/api/npm/npm/detective-cjs/-/detective-cjs-3.1.1.tgz#18da3e39a002d2098a1123d45ce1de1b0d9045a0"
+  integrity sha1-GNo+OaAC0gmKESPUXOHeGw2QRaA=
+  dependencies:
+    ast-module-types "^2.4.0"
+    node-source-walk "^4.0.0"
+
 "detective-es6-extended@https://github.com/nicolas6422/node-detective-es6.git#d3438b8":
   version "2.2.0"
   resolved "https://github.com/nicolas6422/node-detective-es6.git#d3438b8f79b3b423ccaa94ccf6def995d2f45d73"
+  dependencies:
+    node-source-walk "^4.0.0"
+
+detective-es6@^2.2.1:
+  version "2.2.1"
+  resolved "https://packages.convoy.com/artifactory/api/npm/npm/detective-es6/-/detective-es6-2.2.1.tgz#090c874e2cdcda677389cc2ae36f0b37faced187"
+  integrity sha1-CQyHTizc2mdzicwq428LN/rO0Yc=
   dependencies:
     node-source-walk "^4.0.0"
 
@@ -598,6 +613,16 @@ detective-stylus@^1.0.0:
 "detective-typescript-extended@https://github.com/nicolas6422/detective-typescript.git#647c09f":
   version "7.0.0"
   resolved "https://github.com/nicolas6422/detective-typescript.git#647c09feee86cbf4db8022e2c661f231099c8bdc"
+  dependencies:
+    "@typescript-eslint/typescript-estree" "^4.8.2"
+    ast-module-types "^2.7.1"
+    node-source-walk "^4.2.0"
+    typescript "^3.9.7"
+
+detective-typescript@^7.0.0:
+  version "7.0.0"
+  resolved "https://packages.convoy.com/artifactory/api/npm/npm/detective-typescript/-/detective-typescript-7.0.0.tgz#8c8917f2e51d9e4ee49821abf759ff512dd897f2"
+  integrity sha1-jIkX8uUdnk7kmCGr91n/US3Yl/I=
   dependencies:
     "@typescript-eslint/typescript-estree" "^4.8.2"
     ast-module-types "^2.7.1"
