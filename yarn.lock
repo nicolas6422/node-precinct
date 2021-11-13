@@ -540,16 +540,16 @@ detective-amd@^3.0.1:
     get-amd-module-type "^3.0.0"
     node-source-walk "^4.0.0"
 
-"detective-cjs-extended@https://github.com/nicolas6422/node-detective-cjs.git#e305357":
+"detective-cjs-extended@https://github.com/nicolas6422/node-detective-cjs.git#fb74e9c":
   version "3.1.1"
-  resolved "https://github.com/nicolas6422/node-detective-cjs.git#e3053570c4bbbb82291843e922894607169b8f4a"
+  resolved "https://github.com/nicolas6422/node-detective-cjs.git#fb74e9cbf571a79688ff314a8b3e645a7fe659cd"
   dependencies:
     ast-module-types "^2.4.0"
     node-source-walk "^4.0.0"
 
-"detective-es6-extended@https://github.com/nicolas6422/node-detective-es6.git#d3438b8":
+"detective-es6-extended@https://github.com/nicolas6422/node-detective-es6.git#7d635a2":
   version "2.2.0"
-  resolved "https://github.com/nicolas6422/node-detective-es6.git#d3438b8f79b3b423ccaa94ccf6def995d2f45d73"
+  resolved "https://github.com/nicolas6422/node-detective-es6.git#7d635a2c1e8b450391bc7d3d1e2975501243e3aa"
   dependencies:
     node-source-walk "^4.0.0"
 
@@ -595,9 +595,9 @@ detective-stylus@^1.0.0:
   resolved "https://packages.convoy.com/artifactory/api/npm/npm/detective-stylus/-/detective-stylus-1.0.0.tgz#50aee7db8babb990381f010c63fabba5b58e54cd"
   integrity sha1-UK7n24uruZA4HwEMY/q7pbWOVM0=
 
-"detective-typescript-extended@https://github.com/nicolas6422/detective-typescript.git#647c09f":
+"detective-typescript-extended@https://github.com/nicolas6422/detective-typescript.git#e02b2e7":
   version "7.0.0"
-  resolved "https://github.com/nicolas6422/detective-typescript.git#647c09feee86cbf4db8022e2c661f231099c8bdc"
+  resolved "https://github.com/nicolas6422/detective-typescript.git#e02b2e7e645b2369a848a0c52292f1cda6bb080d"
   dependencies:
     "@typescript-eslint/typescript-estree" "^4.8.2"
     ast-module-types "^2.7.1"
