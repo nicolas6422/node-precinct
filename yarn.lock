@@ -214,7 +214,7 @@ array-union@^2.1.0:
   resolved "https://packages.convoy.com/artifactory/api/npm/npm/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
   integrity sha1-t5hCCtvrHego2ErNii4j0+/oXo0=
 
-ast-module-types@^2.3.2, ast-module-types@^2.4.0, ast-module-types@^2.7.0, ast-module-types@^2.7.1:
+ast-module-types@^2.3.2, ast-module-types@^2.7.0, ast-module-types@^2.7.1:
   version "2.7.1"
   resolved "https://packages.convoy.com/artifactory/api/npm/npm/ast-module-types/-/ast-module-types-2.7.1.tgz#3f7989ef8dfa1fdb82dfe0ab02bdfc7c77a57dd3"
   integrity sha1-P3mJ7436H9uC3+CrAr38fHelfdM=
@@ -538,13 +538,6 @@ detective-amd@^3.0.1:
     ast-module-types "^2.7.0"
     escodegen "^2.0.0"
     get-amd-module-type "^3.0.0"
-    node-source-walk "^4.0.0"
-
-"detective-cjs-extended@https://github.com/nicolas6422/node-detective-cjs.git#ed21fa7":
-  version "3.1.1"
-  resolved "https://github.com/nicolas6422/node-detective-cjs.git#ed21fa7d9d4ab249afd2eeeb90e0f7880d09b2c1"
-  dependencies:
-    ast-module-types "^2.4.0"
     node-source-walk "^4.0.0"
 
 "detective-es6-extended@https://github.com/nicolas6422/node-detective-es6.git#5c9310a":
