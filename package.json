@@ -36,7 +36,7 @@
     "commander": "^2.20.3",
     "debug": "^4.3.1",
     "detective-amd": "^3.0.1",
-    "detective-cjs-extended": "https://github.com/nicolas6422/node-detective-cjs.git#6d83575",
+    "detective-cjs-extended": "https://github.com/nicolas6422/node-detective-cjs.git#ed21fa7",
     "detective-es6-extended": "https://github.com/nicolas6422/node-detective-es6.git#5c9310a",
     "detective-less": "^1.0.2",
     "detective-postcss": "^4.0.0",

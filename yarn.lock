@@ -540,9 +540,9 @@ detective-amd@^3.0.1:
     get-amd-module-type "^3.0.0"
     node-source-walk "^4.0.0"
 
-"detective-cjs-extended@https://github.com/nicolas6422/node-detective-cjs.git#6d83575":
+"detective-cjs-extended@https://github.com/nicolas6422/node-detective-cjs.git#ed21fa7":
   version "3.1.1"
-  resolved "https://github.com/nicolas6422/node-detective-cjs.git#6d8357502e017819edd587268c6e1fc1d000e444"
+  resolved "https://github.com/nicolas6422/node-detective-cjs.git#ed21fa7d9d4ab249afd2eeeb90e0f7880d09b2c1"
   dependencies:
     ast-module-types "^2.4.0"
     node-source-walk "^4.0.0"
